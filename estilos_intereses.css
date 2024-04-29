@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#contenedor {
+    background-color: #f2f2f2;
+    border: 4px solid #666;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#cabecera {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+#menu {
+    background-color: #2874A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    margin-right: 40px; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+#contenido {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#acerca,
+#contacto,
+#experiencia {
+    background-color: #76D7C4;
+    padding: 30px; 
+    margin-bottom: 30px; 
+    border-radius: 10px; 
+}
+.contacto-item {
+    margin-bottom: 15px;
+}
+
+.contacto-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contacto-info {
+    margin-bottom: 15px;
+}
+.experiencia-item {
+    margin-bottom: 15px;
+}
+
+.experiencia-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experiencia-barra {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.experiencia-progreso {
+    height: 100%;
+    width: 0; 
+    background-color: #0b0b0b;
+    border-radius: 10px;
+}
+
+#pie {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+#pie p {
+    margin: 10px 0; 
+}
+

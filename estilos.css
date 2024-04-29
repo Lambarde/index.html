@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#contenedor {
+    background-color: #f2f2f2;
+    border: 4px solid #666;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#cabecera {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+#menu {
+    background-color: #2874A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    margin-right: 40px; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+#contenido {
+    display: flex;
+    flex: 1;
+}
+
+#izquierda {
+    background: url("imagenes/1542384053_864693_1542384302_noticia_normal_recorte1.jpg") no-repeat;
+    background-size: cover;
+    width: 30%;
+}
+
+#izquierda img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#derecha {
+    background-color: #76D7C4;
+    flex: 1;
+    padding: 30px;
+}
+
+.datos-personales {
+    margin-bottom: 20px;
+}
+
+.datos-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.datos-info {
+    margin-bottom: 15px;
+}
+
+.idioma-item {
+    margin-bottom: 15px;
+}
+
+.idioma-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.idioma-barra {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.idioma-progreso {
+    height: 100%;
+    width: 0; 
+    background-color: #041205;
+    border-radius: 10px;
+}
+
+#pie {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+#pie p {
+    margin: 10px 0; 
+}
+
+
